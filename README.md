@@ -30,7 +30,11 @@ Wireshark Filter Expression
 Wireshark Filter Expression
 ``` http.request.method == POST ```
 - Gunakan wireshark filter expression di atas
+- ![foto 3a](img/3a.png)
+
 - Follow -> HTTP Stream
+- ![foto 3b](img/3b.png)
+- ![foto 3c](img/3c.png)
 
 Terlihat bahwa
 Username = 10pemuda
@@ -41,14 +45,23 @@ Wireshark Filter Expression
 ``` http.authbasic ```
 - Gunakan wireshark filter expression di atas
 - Muncul paket-paket yang menggunakan basic authentication method
+- ![foto 4](img/4.png)
 
 ### 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 Wireshark Filter Expression
 ``` http contains "aku.pengen.pw" ```
 - Gunakan wireshark filter expression di atas
+- ![foto 5a](img/5a.png)
+
 - Follow -> TCP Stream
+- ![foto 5b](img/5b.png)
+
 - Cari Authorization
+- ![foto 5c](img/5c.png)
+
 - Decode
+- ![foto 5d](img/5d.png)
+- ![foto 5e](img/5e.png)
 
 Mendapat
 Username: kakakgamtenk
