@@ -4,10 +4,10 @@
 Wireshark Filter Expression
 ``` http.host contains "testing.mekanis.me" ```
 - Gunakan wireshark filter expression di atas
-![foto 1a](img/1a.png)
+- ![foto 1a](img/1a.png)
 
 - Follow -> HTTP Stream
-![foto 1b](img/1b.png)
+- ![foto 1b](img/1b.png)
 
 
 web server yang digunakan : nginx/1.14.0 (Ubuntu)
@@ -15,15 +15,15 @@ web server yang digunakan : nginx/1.14.0 (Ubuntu)
 ### 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 Wireshark Filter Expression
 - File -> Export Objects -> HTTP
-![foto 2a](img/2a.png)
+- ![foto 2a](img/2a.png)
 
 
 - Cari gambar dengan mengetikkan "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
-![foto 2b](img/2b.png)
+- ![foto 2b](img/2b.png)
 
 
 - Save gambar
-![foto 2c](img/2c.jpg)
+- ![foto 2c](img/2c.jpg)
 
 
 ### 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
