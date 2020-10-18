@@ -58,9 +58,22 @@ Cari Password
 
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 Wireshark Filter Expression
+``` frame contains “Yes.zip” ```
+- Gunakan wireshark filter expression di atas
+- Follow -> TCP Stream
+- Download
+![foto 7a](img/7a.jpg)
 
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 Wireshark Filter Expression
+``` ftp contains “Microsoft” ```
+- Gunakan wireshark  filter expression di atas
+- Dapatkan IP
+- Menggunakan IP yang telah ditemukan untuk mencari objek apa saja yang didownload dengan wireshark filter expression di bawah
+
+Wireshark Filter Expression
+``` ftp.request.command == RETR && ( ip.src == 198.246.117.106 || ip.dst == 198.246.117.106) ```
+
 
 ### 9. Cari username dan password ketika login FTP pada localhost!
 Wireshark Filter Expression
@@ -74,6 +87,10 @@ password : dhana123
 
 ### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46"
 Wireshark Filter Expression
+- Search di display filter dengan tombol Ctrl + F
+- Cari di hex value 25 50 44 46
+- Follow -> TCP Stream
+- Save
 
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 Wireshark Filter Expression
